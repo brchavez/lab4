@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Volunteer Forum</title>
+</head>
+<body>
+  <form method="post" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" >
+    <h1>Volunteer Form</h1>
+    <fieldset>
+      <h4>My Info</h4>
+      <label>First Name: <input type="text" name="first_name_field"></label>
+      <label>Last Name: <input type="text" name="last_name_field"></label>
+      <label>Phone Number: <input type="text" name="phone_field"></label>
+      <label>Email Address: <input type="text" name="email_field"></label>
+      <label>Gender:  <input type="radio" name="gender_field" value="male">Male  <input type="radio" name="gender_field" value="female">Female</label>
+      <label>Age:</label>
+      <select name="age_field">
+        <option value="under 18">under 18</option>
+        <option value="18-24">18-24</option>
+        <option value="25-34">25-34</option>
+        <option value="35-44">35-44</option>
+        <option value="45-54">45-54</option>
+        <option value="55-64">55-64</option>
+        <option value="65-74">65-74</option>
+      </select>
+    </fieldset>
+    <h4>My Availability</h4>
+
+
+    <fieldset>
+      <label>Days Available:</label>
+      <label><input type="checkbox" name="available_field" value="Sunday">Sunday</label>
+      <label><input type="checkbox" name="available_field" value="Monday">Monday</label>
+      <label><input type="checkbox" name="available_field" value="Tuesday">Tuesday</label>
+      <label><input type="checkbox" name="available_field" value="Wednesday">Wednesday</label>
+      <label><input type="checkbox" name="available_field" value="Thursday">Thursday</label>
+      <label><input type="checkbox" name="available_field" value="Friday">Friday</label>
+      <label><input type="checkbox" name="available_field" value="Saturday">Saturday</label>
+      <label>Any Comments?</label>
+      <textarea name="comments_field" rows="20" cols="30"></textarea>
+    </fieldset>
+
+
+    <input type="hidden" name="hidden_field">
+
+
+    <input type="button" value="Send me">
+  </form>
+</body>
+</html>
